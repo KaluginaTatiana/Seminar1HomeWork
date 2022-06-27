@@ -18,13 +18,8 @@ if (num1 != num2)
         maxnum = num2;
         minnum = num1;
     }
-    Console.Write("Большее число = ");
-    Console.Write(maxnum);
-    Console.Write(". ");
-    Console.Write("Меньшее число = ");
-    Console.Write(minnum);
-    Console.WriteLine(".");
-    }
+    Console.WriteLine($"Большее число = {maxnum}. Меньшее число = {minnum}.");
+}
 else
 {
     Console.WriteLine("Числа равны.");
