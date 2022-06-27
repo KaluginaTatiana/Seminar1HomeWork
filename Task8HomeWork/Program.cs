@@ -12,9 +12,7 @@ if (num >= 2)
     {
         if (test % 2 == 0)
         {
-            Console.Write(" ");
-            Console.Write(test);
-            Console.Write(",");
+            Console.Write($" {test},");
         }
         test = test + 1;
     }
@@ -29,8 +27,6 @@ if (num < 2)
 {
     if (num >= 1)
     {
-        Console.Write("Четных чисел в диапазоне от 1 до ");
-        Console.Write(num);
-        Console.WriteLine(" нет.");
+        Console.WriteLine($"Четных чисел в диапазоне от 1 до {num} нет.");
     }
 }
