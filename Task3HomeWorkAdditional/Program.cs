@@ -1,5 +1,5 @@
 ﻿// На ввод подаётся рост трёх спортсменов. Расположить их от большего к меньшему.
-Console.WriteLine("Введите рост трех спортсменов в саниметрах");
+Console.WriteLine("Введите рост трех спортсменов в сантиметрах");
 Console.WriteLine("Введите рост первого спортсмена");
 double height1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите рост второго спортсмена");
@@ -35,10 +35,4 @@ else
         place3 = height3;
     }
 }
-Console.Write("Рост спортсменов в порядке убывания: ");
-Console.Write(place1);
-Console.Write(", ");
-Console.Write(place2);
-Console.Write(", ");
-Console.Write(place3);
-Console.WriteLine(".");
+Console.WriteLine($"Рост спортсменов в порядке убывания: {place1} см, {place2} см, {place3} см.");
