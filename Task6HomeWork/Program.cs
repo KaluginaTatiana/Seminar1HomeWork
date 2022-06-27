@@ -9,14 +9,10 @@ else
 {
     if (num % 2 == 0)
     {
-        Console.Write("Число ");
-        Console.Write(num);
-        Console.WriteLine(" - четное.");
+        Console.WriteLine($"Число {num} - четное.");
     }
     else
     {
-        Console.Write("Число ");
-        Console.Write(num);
-        Console.WriteLine(" - нечетное.");
+        Console.WriteLine($"Число {num} - нечетное.");
     }
 }
