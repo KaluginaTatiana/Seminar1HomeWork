@@ -19,6 +19,4 @@ if (num3 > max)
 {
     max = num3;
 }
-Console.Write("Максимальное число = ");
-Console.Write(max);
-Console.WriteLine(".");
+Console.WriteLine($"Максимальное число = {max}.");
