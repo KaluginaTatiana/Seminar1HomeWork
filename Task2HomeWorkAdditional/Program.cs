@@ -18,13 +18,7 @@ if (num1 != num2)
         minnum = num1;
     }
     div = (maxnum - maxnum % minnum) / minnum;
-    Console.Write("Число ");
-    Console.Write(minnum);
-    Console.Write(" помещается в числе ");
-    Console.Write(maxnum);
-    Console.Write(" - ");
-    Console.Write(div);
-    Console.WriteLine(" раз(а).");
+    Console.WriteLine($"Число {minnum} помещается в числе {maxnum} - {div} раз(а).");
 }
 else
 {
