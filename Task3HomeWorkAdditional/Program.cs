@@ -42,5 +42,3 @@ Console.Write(place2);
 Console.Write(", ");
 Console.Write(place3);
 Console.WriteLine(".");
-
-        
